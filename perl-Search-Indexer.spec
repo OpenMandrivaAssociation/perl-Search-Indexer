@@ -1,14 +1,14 @@
 %define upstream_name  	    Search-Indexer
-%define upstream_version    0.76
+%define upstream_version 0.77
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%perl_convert_version 0.77
+Release:	1
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	Full-text indexer
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source:		http://www.cpan.org/modules/by-module/Search/%{upstream_name}-%{upstream_version}.tar.gz
+Source:		http://www.cpan.org/modules/by-module/Search/Search-Indexer-0.77.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(BerkeleyDB)
@@ -63,4 +63,5 @@ make test
 
 * Tue Mar 31 2009 cpan2dist 0.75-1mdv
 - initial mdv release, generated with cpan2dist
+
 
