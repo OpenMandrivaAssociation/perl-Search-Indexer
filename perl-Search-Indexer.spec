@@ -7,7 +7,7 @@ Release:	3
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	Full-text indexer
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source:		http://www.cpan.org/modules/by-module/Search/Search-Indexer-0.77.tar.gz
 
 BuildRequires:	perl-devel
